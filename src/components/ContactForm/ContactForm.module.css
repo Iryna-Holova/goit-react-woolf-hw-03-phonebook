@@ -46,6 +46,7 @@
 
 .input:focus ~ .label,
 .input:not(:placeholder-shown) ~ .label {
+  pointer-events: initial;
   color: #1d4eb9;
   font-size: 12px;
   top: -8px;
@@ -53,6 +54,7 @@
 }
 
 .label {
+  pointer-events: none;
   cursor: text;
   position: absolute;
   left: 32px;
